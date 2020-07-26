@@ -34,7 +34,7 @@ class Cities extends React.Component {
             path={match.path}
             render={() => <CityList cities={cities} />}
           />
-          <Route path={`${match.path}/:cityName`} component={Weather} />
+          <Route path={`${match.path}/:cityName`} component={Weather} /> 
         </Switch>
       </div>
     );
